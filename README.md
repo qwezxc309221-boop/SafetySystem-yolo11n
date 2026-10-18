@@ -13,9 +13,6 @@
 - **GPU 自动加速**：检测到 CUDA 自动使用 GPU，否则回退 CPU
 - **多线程流水线**：采集 / 推理 / 保存 / 录像分离，UI 不卡顿
 
-## 🖥 界面截图
-
-> 待补充：运行 `python main.py` 后截图，保存为 `docs/screenshot.png` 后在此处引用 `![界面截图](docs/screenshot.png)`
 
 ## 🚀 快速开始
 
@@ -97,6 +94,4 @@ SafetySystem-yolo11n/
 **Q：违规截图和录像存在哪？**
 分别存在项目下的 `records/` 和 `video/` 目录，按"类别名_时间戳.jpg"和"REC_时间戳.mp4"命名，首次运行自动创建。
 
-## 📄 许可证
 
-建议添加 MIT License（仓库页面 → Add file → Create new file → 文件名输入 `LICENSE`，右侧会出现"Choose a license template"按钮，选择 MIT 即可）。
