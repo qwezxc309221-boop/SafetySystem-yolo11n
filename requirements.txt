@@ -1,0 +1,11 @@
+# 核心依赖（CPU 可直接安装）
+PyQt6>=6.4.0
+opencv-python>=4.8.0
+Pillow>=9.5.0
+numpy>=1.24.0
+ultralytics>=8.0.0
+
+# PyTorch（会被 ultralytics 自动带上，以下为显式声明）
+# 有 NVIDIA GPU 的用户建议按官网指引安装 CUDA 版，速度差 5-10 倍：
+# https://pytorch.org/get-started/locally/
+torch>=2.0.0
